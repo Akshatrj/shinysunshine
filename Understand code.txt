@@ -1,0 +1,14 @@
+module used-
+from datetime import datetime- to make program to read date and time variable to perform multiple task 
+import csv- comma seperated values to make database of bussiness 
+import subprocess- to automate the task like hear we have automated to open img file stored in the d drive of the system 
+from PIL import Image- enable python to deal with img like opeing manipulating and saving 
+reportlab- acts as the inteface between pdf,doc and help to create python shape, images, anotation etc
+from reportlab.lib.pagesizes import letter- create a canvas object of size letter 
+from reportlab.pdfgen import canvas- used to manuplate canvas object 
+import mysql.connector as sqltor- create a interface between sql(a DBMS tool) and python helps to manuplate database using python 
+import os- function help to intract the user intracting environment 
+os.environ['PYGAME_HIDE_SUPPORT_PROMPT'] = "hide"- using os it help pygame to print its welcome message when pygame is called
+import pygame- help python to intract between multimedia files like here we did with to auto run audio message 
+from docx import Document- helps python to manuplate doc file 
+main function allows us to first import modules and run the other part of code to prevent if code is runned first and modules are not imported than it would give us errors 
